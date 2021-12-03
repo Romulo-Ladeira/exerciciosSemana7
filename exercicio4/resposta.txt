@@ -1,0 +1,2 @@
+1. Um programa é assincorno quado depende de uma responsta que não funciona no tempo normal do fluxo do código.
+2. Dentro da função assíncorna deve-se Await quando for nescesário esperar pro uma promisse.
