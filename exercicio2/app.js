@@ -1,11 +1,8 @@
-function multiplicarNumeros (...rest){
-    let resultado = rest[0]    
-    for(let i = 1; i < rest.length ; i++){
-        
-        resultado *= rest[i]
-    }
+function concateArrays (array1, array2){
+    
+    let  novoArray = [...array1, ...array2]
 
-    console.log(resultado)
+    console.log(novoArray)
 }
 
-multiplicarNumeros(2, 2, 2, 10)
+concateArrays([3, 5, 7], [7, 90, 1, 6])
